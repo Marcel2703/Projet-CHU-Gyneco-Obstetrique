@@ -1,0 +1,149 @@
+body{
+	background-image: url("http://localhost/Projet CHU-Gyneco-Obstetrique/image/hp.jpg");
+}
+#fenLog{
+	background-image: url("http://localhost/Projet CHU-Gyneco-Obstetrique/image/secure1.jpg");
+}
+#logo{
+	height: 100px;
+  background-image: url("http://localhost/Projet CHU-Gyneco-Obstetrique/image/fondAjout.jpg");
+  opacity: 0.7
+}
+#logocenter{
+  height: 100px;
+ 
+  opacity:0.6;
+}
+#titre{
+	font-size: 20px;
+	color: white;
+}
+#lien{
+	padding-right: 0px;
+	background-color: rgb(0,50,0);
+  opacity:0.8;
+
+}
+#lien a{
+	font-size: 18px;
+	color: white;
+}
+#recherche{
+	padding-top: 5px;
+}
+#lien a:hover,#lien a:focus{
+	color: black;
+	outline: none;
+}
+.listeMenu a{
+color: rgb(0,50,0);
+font-size: 15px;
+text-align: center;
+font-weight: bold;
+}
+.listeMenu a:hover,.listeMenu a:focus{
+color: rgb(70,0,0);
+outline: none;
+border-bottom-right-radius: 5px;
+border-top-right-radius: 5px;
+border-bottom-left-radius: 5px;
+border-top-left-radius: 5px;
+}
+.listeMenu li{
+	padding-right: 0px;
+}
+#pieds{
+	height: 65px;
+	background: url("http://localhost/Projet CHU-Gyneco-Obstetrique/image/fondAjout.jpg");
+	opacity: 1;
+	color: rgb(130,130,130);
+	padding-top: 5px;
+}
+#formLogin{
+	padding-top: 0px;
+	opacity: 0.9;
+	background: url("http://localhost/Projet CHU-Gyneco-Obstetrique/image/fondAjout.jpg");
+	color:white;
+}
+#milieu{
+	margin:0px;
+	background-image: url("http://localhost/Projet CHU-Gyneco-Obstetrique/image/hp.jpg");
+	opacity: 0.8;
+	border-radius: 5px;
+}
+#tete1{
+	height: 70px;
+	background: url("http://localhost/Projet CHU-Gyneco-Obstetrique/image/fondAjout.jpg");
+}
+.btnLogin{
+	display: inline-block;
+	width: 125px;
+	color: #fff;
+  	background-color: rgb(0,50,0);
+  	border-color: #46b8da;
+  	padding: 6px 12px;
+  	margin-bottom: 0;
+  	font-size: 14px;
+  	font-weight: normal;
+  	line-height: 1.42857143;
+  	text-align: center;
+  	white-space: nowrap;
+  	vertical-align: middle;
+  	-ms-touch-action: manipulation;
+      touch-action: manipulation;
+  	cursor: pointer;
+  	-webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  	background-image: none;
+  	border: 1px solid transparent;
+  	border-radius: 4px;
+  	font-weight: bold;
+  	z-index: 4;
+}
+.btnLogin:focus,
+.btnLogin:active:focus,
+.btnLogin.active:focus {
+  outline: thin dotted;
+  outline: none;
+}
+.btnLogin:hover{
+	background: rgb(191,255,191);
+  color: #333;
+  text-decoration: none;
+}
+.btnLogin:active {
+  background: rgb(191,255,191);
+  color: white;
+  text-decoration: none;
+}
+.btnLogin:active,
+.btnLogin.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+          box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}
+.btnLogin.disabled,
+.btnLogin[disabled],
+fieldset[disabled] .btnLogin {
+  pointer-events: none;
+  cursor: not-allowed;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  opacity: .65;
+}
+#userOption{
+	background: url("http://localhost/Projet CHU-Gyneco-Obstetrique/image/fondAjout.jpg");
+	padding-top: 15px;
+	position: absolute;
+	right: 20px;
+	opacity: 0.8
+}
+#fondAccueil{
+  background: url("http://localhost/Projet CHU-Gyneco-Obstetrique/image/hp2.jpg");
+  padding: 20px;
+  opacity: 0.9;
+}
